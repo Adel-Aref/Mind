@@ -71,7 +71,7 @@ extension HomeViewController{
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HomeCollectionViewCell", for: indexPath) as! HomeCollectionViewCell
        
         
-        
+//        "HomeCollectionViewCell", for: indexPath) as! HomeCollectionViewCell
         
         switch indexPath.row {
         case 0:
