@@ -2,13 +2,16 @@ PODS:
   - CHTCollectionViewWaterfallLayout (0.9.7):
     - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.7)
   - CHTCollectionViewWaterfallLayout/ObjC (0.9.7)
+  - DLRadioButton (1.4.12)
 
 DEPENDENCIES:
   - CHTCollectionViewWaterfallLayout
+  - DLRadioButton
 
 SPEC CHECKSUMS:
   CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
 
-PODFILE CHECKSUM: 01fb598ea20238a12a60fbdb6f79152218e49c79
+PODFILE CHECKSUM: 1e27c75497cbd2bd77e7b474de6313f5716f31b0
 
 COCOAPODS: 1.4.0

@@ -138,26 +138,14 @@ extension HomeViewController{
         switch indexPath.row {
         case 0:
             performSegue(withIdentifier: "showInvoiceViewController", sender: nil)
-           
+        case 1:
+            performSegue(withIdentifier: "showReportViewController", sender: nil)
         
         default:
             break
         }
     }
     
-    //////////////////////////////
-    // just commited now
-    // just commited now
-    
-    // just commited now
-    // just commited now
-    
-    // just commited now
-    // just commited now
-    
-    // just commited now
-    // just commited now
-     // adel push
     
 }
 
