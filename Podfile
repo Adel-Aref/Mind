@@ -8,7 +8,11 @@ target 'Mind' do
   # Pods for Mind
 
 pod 'CHTCollectionViewWaterfallLayout'
+<<<<<<< HEAD
 pod 'DropDown'
+=======
+pod 'DLRadioButton'
+>>>>>>> master
 
 
   target 'MindTests' do

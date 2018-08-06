@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BB3EF735453D52D9FA726F6551E9B /* DropDown.swift */; };
 		07F75A2B63B49B39B0C9B66B5346FC28 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D24972527B2C73CF4C3C078199A010F4 /* CHTCollectionViewWaterfallLayout-dummy.m */; };
 		098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112BA1F72720F06C617D332901A9F3A /* DropDownCell.swift */; };
@@ -28,33 +29,74 @@
 		B25BCF38B4C5783B545664F2AE64C738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B29A9DA5809253AE2FBB336D03CA700E /* Pods-MindUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E62BD78741E4A3D38F0128D1CFA60D5 /* Pods-MindUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C477266A80E33B876903DF1B7552507E /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7E222B1B203BF7098F2625E3DF082D /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+=======
+		07F75A2B63B49B39B0C9B66B5346FC28 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 803F9198BF12117B1A617F0494FF6ABA /* CHTCollectionViewWaterfallLayout-dummy.m */; };
+		235CAFEDD08A3531E1103876F6648216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		327CAF2CFFAEE73A52125E4666715D10 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BB871895546CEC49FFB184ABEF1DA /* CHTCollectionViewWaterfallLayout.m */; };
+		556A9FC9D35EC8FA35576366AC803C0B /* Pods-MindUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CEE07EE776D81A0A219B4437BC26ED /* Pods-MindUITests-dummy.m */; };
+		5E2BDF3F09A13CD3DB5C9542A2899660 /* Pods-MindTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B221943AEC35D2FE722B89961703DA22 /* Pods-MindTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E7E0B70C0D1CCD0AC694A99E8324ECD /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1999AEF4CA7CEC007364CE19ACAB2352 /* DLRadioButton-dummy.m */; };
+		70C4701E15B1DB3775D577C2899E2230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B0C67E38195AE17F4E26B6269F12DD2 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA48D4DF648E46D81CE48688161E575 /* CHTCollectionViewWaterfallLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BDFA7E0EAAE80CEBC08C9C7BDF4FBE6 /* Pods-Mind-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D6CA779C08C14A163A003A7742FBA /* Pods-Mind-dummy.m */; };
+		84116DD709725E60919846D7B1AF714B /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77290D3910E2B7C35BA161B3A4DA2EF5 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8EBE4B4A2E8EDBA111BCD668CE304A /* Pods-Mind-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2966D7411C8664791F70532939E12E4 /* Pods-Mind-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CCAF78845475D8D114BC71101A81D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F2D8EC348F59816CFDEA65538E3E532 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8187BAF06DB2C99F92F2BC45F2A20A73 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B29A9DA5809253AE2FBB336D03CA700E /* Pods-MindUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E62BD78741E4A3D38F0128D1CFA60D5 /* Pods-MindUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6988E28381FCC5D04082DD3969BD03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C477266A80E33B876903DF1B7552507E /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 319545273C098F76A90BA704872C90BA /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+>>>>>>> master
 		CEDC0A62920FDB1904A6C365D85EC8C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CFA2D4C1948B4B3FDD48893B3E3DD4AC /* Pods-Mind-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4D6CA779C08C14A163A003A7742FBA /* Pods-Mind-dummy.m */; };
 		D5940CB4CB708C244B2B85EF797DF55E /* Pods-MindTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 221B69814ACBF3FC8C1E405E7F1A840C /* Pods-MindTests-dummy.m */; };
+		EF2F59EEA3194DFCFB39352F4DA16D76 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F08BFB453C33BA02BEDBE316B21389 /* DLRadioButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+<<<<<<< HEAD
 		073126B410ECACD755A605073E734777 /* PBXContainerItemProxy */ = {
+=======
+		0604852A68E1335B833E15EF46EA5B91 /* PBXContainerItemProxy */ = {
+>>>>>>> master
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A197C081A082042562B6F8F3B345A0A4;
 			remoteInfo = CHTCollectionViewWaterfallLayout;
 		};
+<<<<<<< HEAD
 		91F1383413F1CDCC389884B06D388DE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5168099F2EBFC99A707C03C9EADE01A5;
 			remoteInfo = DropDown;
+=======
+		CCA78D51A6305E27960B889587557851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A77E2753C279F67F70C5C21D6FAE15;
+			remoteInfo = DLRadioButton;
+>>>>>>> master
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		035C7305C66053688FC30A70B391865F /* Pods-MindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindTests.release.xcconfig"; sourceTree = "<group>"; };
 		078343B634BF866AF80117FC6838EB72 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+=======
+		0018C62B3036CE4150DEA32877C734E5 /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHTCollectionViewWaterfallLayout.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0097995E07DB9815864526225E8E6D46 /* Pods_MindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MindTests.framework; path = "Pods-MindTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035C7305C66053688FC30A70B391865F /* Pods-MindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EF6345F769CB5650DB3D09530C42F04 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		10FB488CC5143253383308D5653CD7E8 /* Pods_Mind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mind.framework; path = "Pods-Mind.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> master
 		14C674141C389FE9DC76807920992726 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EC9A1B46D0323180962B8F7265023C /* Pods-MindUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1999AEF4CA7CEC007364CE19ACAB2352 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
 		221B69814ACBF3FC8C1E405E7F1A840C /* Pods-MindTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindTests-dummy.m"; sourceTree = "<group>"; };
 		24B306315AB4F738A0ADA89DA9F34675 /* Pods-Mind.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mind.modulemap"; sourceTree = "<group>"; };
 		297B27E2B5E119A840A209CF5C26F384 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,12 +105,21 @@
 		2E62BD78741E4A3D38F0128D1CFA60D5 /* Pods-MindUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindUITests-umbrella.h"; sourceTree = "<group>"; };
 		3046D0F338EACBCECBF997D61C602EC3 /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
 		305DC15A9EC4B167AF73ACC0F12A086B /* Pods-MindTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindTests-frameworks.sh"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3780D922A77D8308C4E1488C03534C08 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
 		39BB1F0B92ED199775F75FCA225D324F /* Pods-MindTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindTests-resources.sh"; sourceTree = "<group>"; };
 		3C9BB3EF735453D52D9FA726F6551E9B /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 		4AC90F808AC5F4E720953C661D8F809C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
 		4CA43F5C80DE1AED5C1E8067D8F90E0D /* Pods-MindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		501BD0EC2A58339D02D40867E9163CDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+=======
+		319545273C098F76A90BA704872C90BA /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		39BB1F0B92ED199775F75FCA225D324F /* Pods-MindTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindTests-resources.sh"; sourceTree = "<group>"; };
+		465B8C47DD8DD591DC8F84C6A1AAD750 /* CHTCollectionViewWaterfallLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.xcconfig; sourceTree = "<group>"; };
+		4B895684CB5A835C429210B9EB1F7D86 /* CHTCollectionViewWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
+		4CA43F5C80DE1AED5C1E8067D8F90E0D /* Pods-MindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA48D4DF648E46D81CE48688161E575 /* CHTCollectionViewWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
+>>>>>>> master
 		53412869AC45B53B42A7B2930817A5E6 /* Pods-MindUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MindUITests-resources.sh"; sourceTree = "<group>"; };
 		5CA087EA8249C8AACA93617E4087C65B /* CHTCollectionViewWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
 		5DD26463FCB19B47A166C490ECF3016D /* Pods-Mind-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mind-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -77,16 +128,30 @@
 		64711D26D45E2FCD4F2093BC757FAF24 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
 		64A012F999353F3E9F06302AB4BA8E25 /* Pods-Mind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mind.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+<<<<<<< HEAD
 		6723057F0B16222EBF93ADBCAE10C7A7 /* CHTCollectionViewWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
 		6F0D1F5A2839DBE3D9DB2BDC47098B36 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+=======
+		6AE9B356EA894BC271B8C00A26DA8F5C /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+>>>>>>> master
 		705CB4DBCEE6A432EC156F1995D8F767 /* Pods-MindTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7216B782A7B1A01477456E90FAE09836 /* Pods-MindUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindUITests.modulemap"; sourceTree = "<group>"; };
 		72CEE07EE776D81A0A219B4437BC26ED /* Pods-MindUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindUITests-dummy.m"; sourceTree = "<group>"; };
+		77290D3910E2B7C35BA161B3A4DA2EF5 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
 		7C4D6CA779C08C14A163A003A7742FBA /* Pods-Mind-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mind-dummy.m"; sourceTree = "<group>"; };
+		803F9198BF12117B1A617F0494FF6ABA /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
+		8187BAF06DB2C99F92F2BC45F2A20A73 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
 		82DC4C680535A1446C0D77A457478C08 /* Pods-Mind-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mind-acknowledgements.plist"; sourceTree = "<group>"; };
 		896AC609F5CE568FFCBA8E74640E08A0 /* Pods-MindTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindTests-acknowledgements.plist"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		982941BE15F27F3DC5CC01023389782A /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+=======
+		92C2724EFACC0BB82B8D0F7E763B18E3 /* Pods_MindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MindUITests.framework; path = "Pods-MindUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F08BFB453C33BA02BEDBE316B21389 /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		9C8BB871895546CEC49FFB184ABEF1DA /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+>>>>>>> master
 		A2966D7411C8664791F70532939E12E4 /* Pods-Mind-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mind-umbrella.h"; sourceTree = "<group>"; };
 		A2FF5BFFA5F6837C85F52FAA2DBCB9D7 /* Pods-MindUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A57F41A6A45EFCA09596DE1294399DA4 /* Pods_MindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MindUITests.framework; path = "Pods-MindUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,12 +159,19 @@
 		B221943AEC35D2FE722B89961703DA22 /* Pods-MindTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindTests-umbrella.h"; sourceTree = "<group>"; };
 		B72F8AF901C3B1BE74EF40FC4DD3C188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB28D2619D12D224EA4A81AAC26DFEC1 /* Pods-Mind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mind.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4711CE4322DD5B6079A0767FE965BF /* CHTCollectionViewWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHTCollectionViewWaterfallLayout.modulemap; sourceTree = "<group>"; };
 		BE5F1A2AD0D3893CE1533BB68B4405C8 /* Pods-MindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFA3F4468C83B2794B9EF329E069C166 /* Pods-MindTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindTests.modulemap"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		C1F1E13539D3ECFDB54AB3379C1F66C6 /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHTCollectionViewWaterfallLayout.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		C11697EF761AA58F552F9E0EFE47C1D1 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FE8846E4D4094CA4AA6528A0084153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+>>>>>>> master
 		C5C687A465E6CF55399864C1FD0673B0 /* Pods-MindUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C62DC8F985C8BEAE4E5ACD2FF209C737 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
 		CAA4E423DFE2CC92D279322EC7D9304B /* Pods-MindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindUITests.release.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CD01C7B5A382FBEA77499658157854ED /* Pods_Mind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mind.framework; path = "Pods-Mind.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D15765520F8C0E1C1D506D9F8171EF /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
 		D24972527B2C73CF4C3C078199A010F4 /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
@@ -109,6 +181,11 @@
 		EF7E222B1B203BF7098F2625E3DF082D /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
 		F42C6810123E9A8339C362FEEEB156D4 /* CHTCollectionViewWaterfallLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.xcconfig; sourceTree = "<group>"; };
 		F677566EE2B12B44C0AEDCD415A2454F /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+=======
+		D50A5B0F3C68A33A3D652B46019EB2BD /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		E6A1BB048C50638E5204A161E549FE31 /* Pods-Mind-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mind-resources.sh"; sourceTree = "<group>"; };
+		F0264FCB2EF14BD0996C817F42695F50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+>>>>>>> master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +197,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +211,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25BCF38B4C5783B545664F2AE64C738 /* Foundation.framework in Frameworks */,
+=======
+		436D472D6D6FB178970FA7C7B0046DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCAF78845475D8D114BC71101A81D1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A324E81F33CA8363E22E0C427CBC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6988E28381FCC5D04082DD3969BD03F /* Foundation.framework in Frameworks */,
+>>>>>>> master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,12 +276,22 @@
 			path = "Target Support Files/Pods-MindTests";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		1EDD1C9BB22580BDEFF9379979A1B865 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				6F0D1F5A2839DBE3D9DB2BDC47098B36 /* DropDownCell.xib */,
 			);
 			name = Resources;
+=======
+		258A75CCC3E934685F66848155CF7CC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8563B8387DBED8FF751A18DFF504AD07 /* CHTCollectionViewWaterfallLayout */,
+				64AC1A15774AB7ED68991BCC15E91DC5 /* DLRadioButton */,
+			);
+			name = Pods;
+>>>>>>> master
 			sourceTree = "<group>";
 		};
 		27B8F7878D3B92978B52C6075C0E50C8 /* Pods-MindUITests */ = {
@@ -209,6 +312,7 @@
 			path = "Target Support Files/Pods-MindUITests";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		39582861686C82178486EA5F6D1F5B67 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,8 +327,26 @@
 			children = (
 				CBF8E394BC8C9DEFE487C3BDEDEC7E63 /* CHTCollectionViewWaterfallLayout */,
 				C3AF3A1D25B89B82B06F443573899CA3 /* DropDown */,
+=======
+		4BBB41E0C585F796E1D489FD6C45D54B /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				319545273C098F76A90BA704872C90BA /* CHTCollectionViewWaterfallLayout.h */,
+				9C8BB871895546CEC49FFB184ABEF1DA /* CHTCollectionViewWaterfallLayout.m */,
+>>>>>>> master
 			);
-			name = Pods;
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		64AC1A15774AB7ED68991BCC15E91DC5 /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				8187BAF06DB2C99F92F2BC45F2A20A73 /* DLRadioButton.h */,
+				97F08BFB453C33BA02BEDBE316B21389 /* DLRadioButton.m */,
+				A2C25C4B250426C1C41261A3654DA9AA /* Support Files */,
+			);
+			name = DLRadioButton;
+			path = DLRadioButton;
 			sourceTree = "<group>";
 		};
 		4C9DBDF12705C0389339C30BD9BC7177 /* Products */ = {
@@ -262,12 +384,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+<<<<<<< HEAD
 				39B1C092182F88B5426354097DCE1971 /* Pods */,
 				4C9DBDF12705C0389339C30BD9BC7177 /* Products */,
+=======
+				258A75CCC3E934685F66848155CF7CC7 /* Pods */,
+				C4814E5205403623A21CA93925288649 /* Products */,
+>>>>>>> master
 				04BD7FEB42C83A9F2B3A1D0F1D7D59E9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		894F926613287B35D77CE4529A87C1D5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +419,41 @@
 				5CA087EA8249C8AACA93617E4087C65B /* CHTCollectionViewWaterfallLayout-prefix.pch */,
 				6723057F0B16222EBF93ADBCAE10C7A7 /* CHTCollectionViewWaterfallLayout-umbrella.h */,
 				501BD0EC2A58339D02D40867E9163CDA /* Info.plist */,
+=======
+		8563B8387DBED8FF751A18DFF504AD07 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB41E0C585F796E1D489FD6C45D54B /* ObjC */,
+				A8C0226928451608E258003BB58057B7 /* Support Files */,
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			path = CHTCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		A2C25C4B250426C1C41261A3654DA9AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50A5B0F3C68A33A3D652B46019EB2BD /* DLRadioButton.modulemap */,
+				6AE9B356EA894BC271B8C00A26DA8F5C /* DLRadioButton.xcconfig */,
+				1999AEF4CA7CEC007364CE19ACAB2352 /* DLRadioButton-dummy.m */,
+				0EF6345F769CB5650DB3D09530C42F04 /* DLRadioButton-prefix.pch */,
+				77290D3910E2B7C35BA161B3A4DA2EF5 /* DLRadioButton-umbrella.h */,
+				C4FE8846E4D4094CA4AA6528A0084153 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
+			sourceTree = "<group>";
+		};
+		A8C0226928451608E258003BB58057B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4711CE4322DD5B6079A0767FE965BF /* CHTCollectionViewWaterfallLayout.modulemap */,
+				465B8C47DD8DD591DC8F84C6A1AAD750 /* CHTCollectionViewWaterfallLayout.xcconfig */,
+				803F9198BF12117B1A617F0494FF6ABA /* CHTCollectionViewWaterfallLayout-dummy.m */,
+				4B895684CB5A835C429210B9EB1F7D86 /* CHTCollectionViewWaterfallLayout-prefix.pch */,
+				4EA48D4DF648E46D81CE48688161E575 /* CHTCollectionViewWaterfallLayout-umbrella.h */,
+				F0264FCB2EF14BD0996C817F42695F50 /* Info.plist */,
+>>>>>>> master
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CHTCollectionViewWaterfallLayout";
@@ -304,6 +467,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		C3AF3A1D25B89B82B06F443573899CA3 /* DropDown */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +482,18 @@
 			);
 			name = DropDown;
 			path = DropDown;
+=======
+		C4814E5205403623A21CA93925288649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0018C62B3036CE4150DEA32877C734E5 /* CHTCollectionViewWaterfallLayout.framework */,
+				C11697EF761AA58F552F9E0EFE47C1D1 /* DLRadioButton.framework */,
+				10FB488CC5143253383308D5653CD7E8 /* Pods_Mind.framework */,
+				0097995E07DB9815864526225E8E6D46 /* Pods_MindTests.framework */,
+				92C2724EFACC0BB82B8D0F7E763B18E3 /* Pods_MindUITests.framework */,
+			);
+			name = Products;
+>>>>>>> master
 			sourceTree = "<group>";
 		};
 		CBF8E394BC8C9DEFE487C3BDEDEC7E63 /* CHTCollectionViewWaterfallLayout */ = {
@@ -330,6 +506,7 @@
 			path = CHTCollectionViewWaterfallLayout;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +523,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */,
+=======
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		220E61F93FBE49E9C3EBBEE5E9331C18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84116DD709725E60919846D7B1AF714B /* DLRadioButton-umbrella.h in Headers */,
+				8F2D8EC348F59816CFDEA65538E3E532 /* DLRadioButton.h in Headers */,
+>>>>>>> master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,11 +546,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		9A87809B655B9C635D9005ADBAF0FF17 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D10746E97930EDD00520AEFD517B712 /* Pods-Mind-umbrella.h in Headers */,
+=======
+		68B861A688BAB3FCC6C53796D79EEE36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8EBE4B4A2E8EDBA111BCD668CE304A /* Pods-Mind-umbrella.h in Headers */,
+>>>>>>> master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +581,7 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		4114AE04DB89F3B396470F36A397DB12 /* Pods-Mind */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBCE028B94B864EBBCE12CCFB595E51C /* Build configuration list for PBXNativeTarget "Pods-Mind" */;
@@ -392,10 +589,20 @@
 				0262BB82C739018C8A802D007A4832DA /* Sources */,
 				45D03EB27977AAD42F24EA80A0E34F8A /* Frameworks */,
 				9A87809B655B9C635D9005ADBAF0FF17 /* Headers */,
+=======
+		3B971B8120D2A08BB6373D1A5857EAF0 /* Pods-Mind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E1DA24E088143920FE3407CEBD4871B /* Build configuration list for PBXNativeTarget "Pods-Mind" */;
+			buildPhases = (
+				5E0437FD7992DFDF84DB97C9BFAC45E1 /* Sources */,
+				436D472D6D6FB178970FA7C7B0046DF0 /* Frameworks */,
+				68B861A688BAB3FCC6C53796D79EEE36 /* Headers */,
+>>>>>>> master
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				6FB260414E697DFA7CE28415B7834099 /* PBXTargetDependency */,
 				3922E21DD6A169FB776E3B13820ACEDA /* PBXTargetDependency */,
 			);
@@ -420,6 +627,14 @@
 			name = DropDown;
 			productName = DropDown;
 			productReference = AD98BF43D4D08D48B6B8DE188420E8E9 /* DropDown.framework */;
+=======
+				3CA8B31AC03693811B3FBFEABBE00399 /* PBXTargetDependency */,
+				6D3BEB4445E60299F7C783661F08AF9A /* PBXTargetDependency */,
+			);
+			name = "Pods-Mind";
+			productName = "Pods-Mind";
+			productReference = 10FB488CC5143253383308D5653CD7E8 /* Pods_Mind.framework */;
+>>>>>>> master
 			productType = "com.apple.product-type.framework";
 		};
 		A197C081A082042562B6F8F3B345A0A4 /* CHTCollectionViewWaterfallLayout */ = {
@@ -436,7 +651,11 @@
 			);
 			name = CHTCollectionViewWaterfallLayout;
 			productName = CHTCollectionViewWaterfallLayout;
+<<<<<<< HEAD
 			productReference = C1F1E13539D3ECFDB54AB3379C1F66C6 /* CHTCollectionViewWaterfallLayout.framework */;
+=======
+			productReference = 0018C62B3036CE4150DEA32877C734E5 /* CHTCollectionViewWaterfallLayout.framework */;
+>>>>>>> master
 			productType = "com.apple.product-type.framework";
 		};
 		BD45632EF060C1E1D66B822819622345 /* Pods-MindUITests */ = {
@@ -453,7 +672,10 @@
 			);
 			name = "Pods-MindUITests";
 			productName = "Pods-MindUITests";
+<<<<<<< HEAD
 			productReference = A57F41A6A45EFCA09596DE1294399DA4 /* Pods_MindUITests.framework */;
+=======
+			productReference = 92C2724EFACC0BB82B8D0F7E763B18E3 /* Pods_MindUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CD2ABA442578F3919561185F2F5269F8 /* Pods-MindTests */ = {
@@ -470,7 +692,31 @@
 			);
 			name = "Pods-MindTests";
 			productName = "Pods-MindTests";
+			productReference = 0097995E07DB9815864526225E8E6D46 /* Pods_MindTests.framework */;
+>>>>>>> master
+			productType = "com.apple.product-type.framework";
+		};
+		F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118FCC60066EF1D7DD17E50B82C12AA4 /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildPhases = (
+				8F67A4B4F56469850BF8A099A6E12AE8 /* Sources */,
+				A2A324E81F33CA8363E22E0C427CBC97 /* Frameworks */,
+				220E61F93FBE49E9C3EBBEE5E9331C18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+<<<<<<< HEAD
+			name = "Pods-MindTests";
+			productName = "Pods-MindTests";
 			productReference = E5EAFF0D8EEC490BFC9247E6F7518BA6 /* Pods_MindTests.framework */;
+=======
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = C11697EF761AA58F552F9E0EFE47C1D1 /* DLRadioButton.framework */;
+>>>>>>> master
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -490,13 +736,22 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+<<<<<<< HEAD
 			productRefGroup = 4C9DBDF12705C0389339C30BD9BC7177 /* Products */;
+=======
+			productRefGroup = C4814E5205403623A21CA93925288649 /* Products */;
+>>>>>>> master
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A197C081A082042562B6F8F3B345A0A4 /* CHTCollectionViewWaterfallLayout */,
+<<<<<<< HEAD
 				5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */,
 				4114AE04DB89F3B396470F36A397DB12 /* Pods-Mind */,
+=======
+				F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */,
+				3B971B8120D2A08BB6373D1A5857EAF0 /* Pods-Mind */,
+>>>>>>> master
 				CD2ABA442578F3919561185F2F5269F8 /* Pods-MindTests */,
 				BD45632EF060C1E1D66B822819622345 /* Pods-MindUITests */,
 			);
@@ -532,6 +787,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E0437FD7992DFDF84DB97C9BFAC45E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDFA7E0EAAE80CEBC08C9C7BDF4FBE6 /* Pods-Mind-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		722B43A2644A827C990D2EBFFFD2B7E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,6 +811,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		ED45CA897A4B81CB8204042001D7AEE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -559,12 +823,21 @@
 				AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */,
 				02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */,
 				098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */,
+=======
+		8F67A4B4F56469850BF8A099A6E12AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7E0B70C0D1CCD0AC694A99E8324ECD /* DLRadioButton-dummy.m in Sources */,
+				EF2F59EEA3194DFCFB39352F4DA16D76 /* DLRadioButton.m in Sources */,
+>>>>>>> master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
 		3922E21DD6A169FB776E3B13820ACEDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DropDown;
@@ -576,10 +849,53 @@
 			name = CHTCollectionViewWaterfallLayout;
 			target = A197C081A082042562B6F8F3B345A0A4 /* CHTCollectionViewWaterfallLayout */;
 			targetProxy = 073126B410ECACD755A605073E734777 /* PBXContainerItemProxy */;
+=======
+		3CA8B31AC03693811B3FBFEABBE00399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			target = A197C081A082042562B6F8F3B345A0A4 /* CHTCollectionViewWaterfallLayout */;
+			targetProxy = 0604852A68E1335B833E15EF46EA5B91 /* PBXContainerItemProxy */;
+		};
+		6D3BEB4445E60299F7C783661F08AF9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */;
+			targetProxy = CCA78D51A6305E27960B889587557851 /* PBXContainerItemProxy */;
+>>>>>>> master
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		07E757414FAD7872FE62A9A40F6C0E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE9B356EA894BC271B8C00A26DA8F5C /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		0FA93EE23CC1A6C157B32CE8DF1A89A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 035C7305C66053688FC30A70B391865F /* Pods-MindTests.release.xcconfig */;
@@ -746,7 +1062,11 @@
 		};
 		57B5FCBD7FC50E00F97DC805BCA0C5C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = CAA4E423DFE2CC92D279322EC7D9304B /* Pods-MindUITests.release.xcconfig */;
+=======
+			baseConfigurationReference = 465B8C47DD8DD591DC8F84C6A1AAD750 /* CHTCollectionViewWaterfallLayout.xcconfig */;
+>>>>>>> master
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -778,7 +1098,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		608025AC9BCDEB9931D8228A764AE452 /* Release */ = {
+=======
+		9601E8A512BD9419AD9176D05F8C5F65 /* Release */ = {
+>>>>>>> master
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64A012F999353F3E9F06302AB4BA8E25 /* Pods-Mind.release.xcconfig */;
 			buildSettings = {
@@ -815,7 +1139,11 @@
 		};
 		64C2F9B36EC31344951F958150BD2D20 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = F42C6810123E9A8339C362FEEEB156D4 /* CHTCollectionViewWaterfallLayout.xcconfig */;
+=======
+			baseConfigurationReference = 465B8C47DD8DD591DC8F84C6A1AAD750 /* CHTCollectionViewWaterfallLayout.xcconfig */;
+>>>>>>> master
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -875,7 +1203,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		9A15D67377D264A5F3DF3BBE19D99371 /* Debug */ = {
+=======
+		AC20E2879C05F8298EE30F40DC79301C /* Debug */ = {
+>>>>>>> master
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F42C6810123E9A8339C362FEEEB156D4 /* CHTCollectionViewWaterfallLayout.xcconfig */;
 			buildSettings = {
@@ -904,6 +1236,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B67275E35C1513FAC7FEB5BA46CEEAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE9B356EA894BC271B8C00A26DA8F5C /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA33F186435244FD0FD5B7325332656C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1041,6 +1404,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		118FCC60066EF1D7DD17E50B82C12AA4 /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E757414FAD7872FE62A9A40F6C0E9B /* Debug */,
+				B67275E35C1513FAC7FEB5BA46CEEAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1050,20 +1422,28 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38E3BFC199CFDFFEE8AAB2D51DD3CAB4 /* Build configuration list for PBXNativeTarget "Pods-MindTests" */ = {
+		2E1DA24E088143920FE3407CEBD4871B /* Build configuration list for PBXNativeTarget "Pods-Mind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D91CD53039067A195D6DAE46057B8CF8 /* Debug */,
-				0FA93EE23CC1A6C157B32CE8DF1A89A0 /* Release */,
+				AC20E2879C05F8298EE30F40DC79301C /* Debug */,
+				9601E8A512BD9419AD9176D05F8C5F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99F30834D5F0DE82F011B2005AC1533E /* Debug */,
 				1C3F30409149F7A5765B16C93233CB54 /* Release */,
+=======
+		38E3BFC199CFDFFEE8AAB2D51DD3CAB4 /* Build configuration list for PBXNativeTarget "Pods-MindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91CD53039067A195D6DAE46057B8CF8 /* Debug */,
+				0FA93EE23CC1A6C157B32CE8DF1A89A0 /* Release */,
+>>>>>>> master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

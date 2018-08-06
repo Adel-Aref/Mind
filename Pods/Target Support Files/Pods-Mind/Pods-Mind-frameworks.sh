@@ -135,11 +135,19 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework"
+<<<<<<< HEAD
   install_framework "${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework"
+=======
+  install_framework "${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework"
+>>>>>>> master
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

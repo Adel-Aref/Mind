@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZU9-zc-XPY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZU9-zc-XPY">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -251,8 +252,8 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Hyl-hB-5mn">
-                                                        <rect key="frame" x="-0.5" y="41" width="667" height="302"/>
+                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Hyl-hB-5mn">
+                                                        <rect key="frame" x="36" y="41" width="667" height="302"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1tG-yQ-hBD">
                                                             <size key="itemSize" width="50" height="50"/>
@@ -344,6 +345,7 @@
                     <connections>
                         <outlet property="homeCollectionView" destination="Hyl-hB-5mn" id="5eN-9J-4Yv"/>
                         <segue destination="FUl-Hs-fZy" kind="show" identifier="showInvoiceViewController" id="aWc-R9-R7a"/>
+                        <segue destination="xd8-Mz-S4g" kind="show" identifier="showReportViewController" id="4Pg-MQ-wqq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O1U-dG-fvN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -769,6 +771,109 @@
             </objects>
             <point key="canvasLocation" x="3404" y="110"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="kWb-U6-iJq">
+            <objects>
+                <viewController id="xd8-Mz-S4g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UbV-fH-N8X">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvZ-vc-lk4">
+                                <rect key="frame" x="645" y="44" width="12" height="38"/>
+                                <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SvZ-vc-lk4" secondAttribute="height" multiplier="37:44" constant="-19.954545454545457" id="FWc-GB-fP2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9om-if-Klc">
+                                <rect key="frame" x="20" y="37" width="615" height="51"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pSx-rW-0OL">
+                                        <rect key="frame" x="5" y="5" width="605" height="41"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4S-wj-8oT" customClass="DLRadioButton">
+                                                <rect key="frame" x="0.0" y="0.0" width="71.5" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="تحويل لمخزن"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usN-ie-Ke6" customClass="DLRadioButton">
+                                                <rect key="frame" x="76.5" y="0.0" width="71" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="الهالك"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5c-5j-5pM" customClass="DLRadioButton">
+                                                <rect key="frame" x="152.5" y="0.0" width="71.5" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="صافي المشتريات"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoH-y5-XWv" customClass="DLRadioButton">
+                                                <rect key="frame" x="229" y="0.0" width="71" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="صافي المبيعات"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1c-zZ-bIU" customClass="DLRadioButton">
+                                                <rect key="frame" x="305" y="0.0" width="71.5" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="مرتجع الشراء"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8a-xo-X2C" customClass="DLRadioButton">
+                                                <rect key="frame" x="381.5" y="0.0" width="71" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="مرتجع البيع"/>
+                                                <connections>
+                                                    <outletCollection property="otherButtons" destination="jSF-zJ-Www" id="1N1-x7-mMk"/>
+                                                    <outletCollection property="otherButtons" destination="Xsh-R9-VP4" id="ufQ-Y5-GdA"/>
+                                                    <outletCollection property="otherButtons" destination="P1c-zZ-bIU" id="bja-f0-RDl"/>
+                                                    <outletCollection property="otherButtons" destination="M4S-wj-8oT" id="b4f-6u-i41"/>
+                                                    <outletCollection property="otherButtons" destination="FoH-y5-XWv" id="svH-mJ-ux6"/>
+                                                    <outletCollection property="otherButtons" destination="s5c-5j-5pM" id="Lob-S8-KdX"/>
+                                                    <outletCollection property="otherButtons" destination="usN-ie-Ke6" id="Gff-ZJ-Qte"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsh-R9-VP4" customClass="DLRadioButton">
+                                                <rect key="frame" x="457.5" y="0.0" width="71.5" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="المشتريات"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSF-zJ-Www" customClass="DLRadioButton">
+                                                <rect key="frame" x="534" y="0.0" width="71" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="المبيعات"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.082410070630555651" green="0.83878485361666677" blue="0.37054547339444455" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="pSx-rW-0OL" firstAttribute="leading" secondItem="9om-if-Klc" secondAttribute="leading" constant="5" id="UMs-7u-vOm"/>
+                                    <constraint firstItem="pSx-rW-0OL" firstAttribute="top" secondItem="9om-if-Klc" secondAttribute="top" constant="5" id="aKR-Tu-jRe"/>
+                                    <constraint firstItem="pSx-rW-0OL" firstAttribute="centerX" secondItem="9om-if-Klc" secondAttribute="centerX" id="s3p-5h-zzf"/>
+                                    <constraint firstItem="pSx-rW-0OL" firstAttribute="centerY" secondItem="9om-if-Klc" secondAttribute="centerY" id="xU5-ms-vXg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9om-if-Klc" firstAttribute="leading" secondItem="UbV-fH-N8X" secondAttribute="leadingMargin" id="3f2-oo-iRB"/>
+                            <constraint firstItem="Fdb-7u-Joc" firstAttribute="trailing" secondItem="SvZ-vc-lk4" secondAttribute="trailing" constant="10" id="GvG-CU-4UA"/>
+                            <constraint firstItem="Fdb-7u-Joc" firstAttribute="bottom" secondItem="9om-if-Klc" secondAttribute="bottom" constant="287" id="Ku2-nm-d7A"/>
+                            <constraint firstItem="9om-if-Klc" firstAttribute="top" secondItem="UbV-fH-N8X" secondAttribute="topMargin" constant="5" id="TaH-f9-99L"/>
+                            <constraint firstItem="9om-if-Klc" firstAttribute="top" secondItem="SvZ-vc-lk4" secondAttribute="top" constant="-7" id="lrJ-2Z-Zs6"/>
+                            <constraint firstItem="9om-if-Klc" firstAttribute="bottom" secondItem="SvZ-vc-lk4" secondAttribute="bottom" constant="6" id="mQF-al-oVv"/>
+                            <constraint firstItem="SvZ-vc-lk4" firstAttribute="leading" secondItem="9om-if-Klc" secondAttribute="trailing" constant="10" id="pXG-BG-qmX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fdb-7u-Joc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ETq-Gh-4gX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ghc-qB-udK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3232" y="978"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rhe-5z-n0A">
             <objects>
@@ -805,8 +910,29 @@
             </objects>
             <point key="canvasLocation" x="2026" y="-786"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="F5Z-GE-VAX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AWL-9y-9fY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o6u-4H-mNH">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xd8-Mz-S4g" kind="relationship" relationship="rootViewController" id="cza-6J-NEJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hmk-7A-LOS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3232" y="996"/>
+        </scene>
     </scenes>
     <resources>
         <image name="drop-down-list" width="512" height="512"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4Pg-MQ-wqq"/>
+    </inferredMetricsTieBreakers>
 </document>
