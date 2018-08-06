@@ -2,13 +2,16 @@ PODS:
   - CHTCollectionViewWaterfallLayout (0.9.7):
     - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.7)
   - CHTCollectionViewWaterfallLayout/ObjC (0.9.7)
+  - DropDown (2.3.2)
 
 DEPENDENCIES:
   - CHTCollectionViewWaterfallLayout
+  - DropDown
 
 SPEC CHECKSUMS:
   CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
 
-PODFILE CHECKSUM: 01fb598ea20238a12a60fbdb6f79152218e49c79
+PODFILE CHECKSUM: 907897addd9c1aaf5a61ccaa123cec891bef0aca
 
 COCOAPODS: 1.4.0

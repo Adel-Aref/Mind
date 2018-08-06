@@ -49,7 +49,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Plb-ev-iGL">
-                                                <rect key="frame" x="40" y="153.5" width="501" height="35"/>
+                                                <rect key="frame" x="40" y="153.5" width="501.5" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="sm9-fX-0kO"/>
                                                 </constraints>
@@ -77,7 +77,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9D5-Tf-RzV">
-                                                <rect key="frame" x="40" y="188.5" width="501" height="1"/>
+                                                <rect key="frame" x="40" y="188.5" width="501.5" height="1"/>
                                                 <color key="backgroundColor" red="0.7843137255" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="vlX-bL-gGW"/>
@@ -165,7 +165,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your url" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DcL-b3-Nse">
-                                <rect key="frame" x="20" y="145" width="600.5" height="35"/>
+                                <rect key="frame" x="20" y="145" width="600" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="7xu-XD-I9T"/>
                                 </constraints>
@@ -193,7 +193,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zeT-gw-Y0S">
-                                <rect key="frame" x="20" y="180" width="600.5" height="1"/>
+                                <rect key="frame" x="20" y="180" width="600" height="1"/>
                                 <color key="backgroundColor" red="0.7843137255" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="so9-FH-3xy"/>
@@ -246,7 +246,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="667" height="343"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التقارير" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQG-bi-5bw">
-                                                        <rect key="frame" x="283.5" y="10" width="333.5" height="21"/>
+                                                        <rect key="frame" x="284" y="10" width="333" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -372,7 +372,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="667" height="343"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rw1-en-5nx">
-                                                        <rect key="frame" x="0.0" y="0.0" width="667" height="10.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="667" height="10"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="البحث عن الفواتير" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H12-df-9N2">
                                                                 <rect key="frame" x="20" y="1" width="200" height="8.5"/>
@@ -391,10 +391,10 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V4J-U5-ti1">
-                                                        <rect key="frame" x="0.0" y="10.5" width="667" height="137"/>
+                                                        <rect key="frame" x="0.0" y="10" width="667" height="137.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YV7-p6-0Yz">
-                                                                <rect key="frame" x="625.5" y="3" width="36.5" height="23"/>
+                                                                <rect key="frame" x="626" y="3" width="36" height="22.5"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="YV7-p6-0Yz" secondAttribute="height" multiplier="8:5" id="dTX-aP-9BM"/>
@@ -404,191 +404,191 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhc-6k-Arb">
-                                                                <rect key="frame" x="516" y="3" width="109.5" height="23"/>
+                                                                <rect key="frame" x="518" y="3" width="108" height="22.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnS-k1-HFT">
-                                                                <rect key="frame" x="516" y="3.5" width="10" height="23"/>
+                                                                <rect key="frame" x="518" y="3.5" width="108" height="22"/>
                                                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.1563035103" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <state key="normal" title="Button" image="drop-down-list"/>
+                                                                <state key="normal" title="Button"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOD-yq-MPB">
-                                                                <rect key="frame" x="625.5" y="36" width="36.5" height="23"/>
+                                                                <rect key="frame" x="626" y="35.5" width="36" height="23"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPh-TJ-tcG">
-                                                                <rect key="frame" x="516" y="36" width="109.5" height="23"/>
+                                                                <rect key="frame" x="518" y="35.5" width="108" height="23"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clX-sL-eJW">
-                                                                <rect key="frame" x="516" y="36" width="10" height="23"/>
+                                                                <rect key="frame" x="518" y="35.5" width="10" height="23"/>
                                                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.1563035103" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <state key="normal" title="Button" image="drop-down-list"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJG-lW-3qd">
-                                                                <rect key="frame" x="625.5" y="69" width="36.5" height="22.5"/>
+                                                                <rect key="frame" x="626" y="68.5" width="36" height="23"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDo-zr-92h">
-                                                                <rect key="frame" x="516" y="69" width="109.5" height="22.5"/>
+                                                                <rect key="frame" x="518" y="68.5" width="108" height="23"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQa-Fp-Ckb">
-                                                                <rect key="frame" x="516" y="69" width="10" height="22.5"/>
+                                                                <rect key="frame" x="518" y="68.5" width="10" height="23"/>
                                                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.1563035103" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <state key="normal" title="Button" image="drop-down-list"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOF-bD-sSO">
-                                                                <rect key="frame" x="467.5" y="3" width="36.5" height="23"/>
+                                                                <rect key="frame" x="470" y="3" width="36" height="22.5"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paX-Cy-N7K">
-                                                                <rect key="frame" x="358" y="3" width="109.5" height="23"/>
+                                                                <rect key="frame" x="362" y="3" width="108" height="22.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJN-la-PSy">
-                                                                <rect key="frame" x="358" y="3" width="10.5" height="23"/>
+                                                                <rect key="frame" x="362" y="3" width="11" height="22.5"/>
                                                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.1563035103" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <state key="normal" title="Button" image="drop-down-list"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ay3-JZ-lhl">
-                                                                <rect key="frame" x="467.5" y="36" width="36.5" height="23.5"/>
+                                                                <rect key="frame" x="470" y="35.5" width="36" height="23"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bp4-0f-568">
-                                                                <rect key="frame" x="358" y="36" width="109.5" height="23.5"/>
+                                                                <rect key="frame" x="362" y="35.5" width="108" height="23"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFO-I0-WmI">
-                                                                <rect key="frame" x="358" y="36" width="10.5" height="23.5"/>
+                                                                <rect key="frame" x="362" y="35.5" width="11" height="23"/>
                                                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.1563035103" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <state key="normal" title="Button" image="drop-down-list"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLf-dY-csM">
-                                                                <rect key="frame" x="467.5" y="69.5" width="36.5" height="23"/>
+                                                                <rect key="frame" x="470" y="68.5" width="36" height="23"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5SJ-zY-7u5">
-                                                                <rect key="frame" x="358" y="69.5" width="109.5" height="23"/>
+                                                                <rect key="frame" x="362" y="68.5" width="108" height="23"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHp-Ei-Hd2">
-                                                                <rect key="frame" x="358" y="69.5" width="10.5" height="23"/>
+                                                                <rect key="frame" x="362" y="68.5" width="11" height="23"/>
                                                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.1563035103" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <state key="normal" title="Button" image="drop-down-list"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHR-sj-PEO">
-                                                                <rect key="frame" x="300" y="3" width="36" height="23"/>
+                                                                <rect key="frame" x="304" y="3" width="36" height="22.5"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLn-sW-1a2">
-                                                                <rect key="frame" x="191.5" y="3" width="108.5" height="23"/>
+                                                                <rect key="frame" x="196" y="3" width="108" height="22.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoN-2M-P1K">
-                                                                <rect key="frame" x="300" y="36" width="36" height="23"/>
+                                                                <rect key="frame" x="304" y="35.5" width="36" height="23"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdS-kB-04c">
-                                                                <rect key="frame" x="191.5" y="36" width="108.5" height="23"/>
+                                                                <rect key="frame" x="196" y="35.5" width="108" height="23"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4l9-tw-nlK">
-                                                                <rect key="frame" x="300" y="69" width="36" height="22.5"/>
+                                                                <rect key="frame" x="304" y="68.5" width="36" height="23"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="px1-BE-5GT">
-                                                                <rect key="frame" x="188.5" y="69" width="108.5" height="22.5"/>
+                                                                <rect key="frame" x="193" y="68.5" width="108" height="23"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJT-g0-5G8">
-                                                                <rect key="frame" x="143.5" y="3" width="36" height="23"/>
+                                                                <rect key="frame" x="148" y="3" width="36" height="22.5"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkW-dV-rWK">
-                                                                <rect key="frame" x="35.5" y="3" width="108" height="23"/>
+                                                                <rect key="frame" x="40" y="3" width="108" height="22.5"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dei-q8-PBb">
-                                                                <rect key="frame" x="143.5" y="36" width="36" height="23"/>
+                                                                <rect key="frame" x="148" y="35.5" width="36" height="23"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAn-5O-BT6">
-                                                                <rect key="frame" x="35.5" y="36" width="108" height="23"/>
+                                                                <rect key="frame" x="40" y="35.5" width="108" height="23"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yf-KB-5i1">
-                                                                <rect key="frame" x="143.5" y="69" width="36" height="22.5"/>
+                                                                <rect key="frame" x="148" y="68.5" width="36" height="23"/>
                                                                 <color key="backgroundColor" red="0.96216687820000002" green="0.96216687820000002" blue="0.96216687820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWx-Gf-UZ5">
-                                                                <rect key="frame" x="35.5" y="69" width="108" height="22.5"/>
+                                                                <rect key="frame" x="40" y="68.5" width="108" height="23"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
@@ -691,6 +691,7 @@
                                                             <constraint firstItem="fPh-TJ-tcG" firstAttribute="width" secondItem="oOD-yq-MPB" secondAttribute="width" multiplier="3" id="meC-wO-zmd"/>
                                                             <constraint firstItem="mhc-6k-Arb" firstAttribute="height" secondItem="YV7-p6-0Yz" secondAttribute="height" id="nO3-Er-u4A"/>
                                                             <constraint firstItem="FoN-2M-P1K" firstAttribute="width" secondItem="xHR-sj-PEO" secondAttribute="width" id="ozU-ac-XUV"/>
+                                                            <constraint firstItem="vnS-k1-HFT" firstAttribute="centerX" secondItem="mhc-6k-Arb" secondAttribute="centerX" id="pKk-ji-po1"/>
                                                             <constraint firstItem="vnS-k1-HFT" firstAttribute="centerY" secondItem="mhc-6k-Arb" secondAttribute="centerY" id="q7J-2c-W4e"/>
                                                             <constraint firstItem="WWx-Gf-UZ5" firstAttribute="height" secondItem="8yf-KB-5i1" secondAttribute="height" id="q8Q-4g-lyA"/>
                                                             <constraint firstItem="paX-Cy-N7K" firstAttribute="height" secondItem="GOF-bD-sSO" secondAttribute="height" id="qgL-Vy-dql"/>
@@ -703,7 +704,7 @@
                                                             <constraint firstItem="yJN-la-PSy" firstAttribute="height" secondItem="paX-Cy-N7K" secondAttribute="height" id="u3I-gG-UXb"/>
                                                             <constraint firstItem="oOD-yq-MPB" firstAttribute="top" secondItem="YV7-p6-0Yz" secondAttribute="bottom" constant="10" id="uHe-dZ-p7M"/>
                                                             <constraint firstItem="mJT-g0-5G8" firstAttribute="width" secondItem="xHR-sj-PEO" secondAttribute="width" id="vTQ-I5-Gjb"/>
-                                                            <constraint firstItem="vnS-k1-HFT" firstAttribute="width" secondItem="mhc-6k-Arb" secondAttribute="width" multiplier="0.1" id="vdD-wS-S0y"/>
+                                                            <constraint firstItem="vnS-k1-HFT" firstAttribute="width" secondItem="mhc-6k-Arb" secondAttribute="width" id="vdD-wS-S0y"/>
                                                             <constraint firstItem="oOD-yq-MPB" firstAttribute="centerX" secondItem="YV7-p6-0Yz" secondAttribute="centerX" id="w2l-Nr-c6w"/>
                                                             <constraint firstItem="8yf-KB-5i1" firstAttribute="leading" secondItem="WWx-Gf-UZ5" secondAttribute="trailing" id="w8P-uH-cUk"/>
                                                             <constraint firstItem="px1-BE-5GT" firstAttribute="centerY" secondItem="4l9-tw-nlK" secondAttribute="centerY" id="wA2-4W-WI4"/>
@@ -760,6 +761,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Fw2-Pd-YMM"/>
                     </view>
+                    <connections>
+                        <outlet property="typeButton" destination="vnS-k1-HFT" id="rBP-vF-BHi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iss-AW-8b4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

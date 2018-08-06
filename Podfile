@@ -8,6 +8,7 @@ target 'Mind' do
   # Pods for Mind
 
 pod 'CHTCollectionViewWaterfallLayout'
+pod 'DropDown'
 
 
   target 'MindTests' do
