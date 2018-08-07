@@ -106,11 +106,11 @@ extension HomeViewController{
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 5.0
+        return 0.5
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 5.0
+        return 0.5
     }
     
 
@@ -123,11 +123,11 @@ extension HomeViewController{
                 let height : CGFloat
         
                 if indexPath.item == 0 {
-                    width = 45
-                    height = 41
+                    width = self.view.frame.size.width / 2
+                    height = self.view.frame.size.width / 2
                 } else {
-                    width = 45
-                    height = 20
+                    width = self.view.frame.size.width / 2
+                    height = self.view.frame.size.width / 4
                 }
                 //return CGSizeMake(width, height)
                 return CGSize(width: width, height: height)
