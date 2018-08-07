@@ -351,10 +351,10 @@
             </objects>
             <point key="canvasLocation" x="3187" y="-30"/>
         </scene>
-        <!--View Controller-->
+        <!--Invoice View Controller-->
         <scene sceneID="bVJ-4z-XaP">
             <objects>
-                <viewController id="r38-R2-0AM" sceneMemberID="viewController">
+                <viewController id="r38-R2-0AM" customClass="InvoiceViewController" customModule="Mind" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l1a-RZ-8pa"/>
                         <viewControllerLayoutGuide type="bottom" id="3oi-dS-Emd"/>
@@ -848,10 +848,10 @@
             </objects>
             <point key="canvasLocation" x="4060" y="-47.8125"/>
         </scene>
-        <!--Invoice View Controller-->
+        <!--View Controller-->
         <scene sceneID="TxD-0P-3ps">
             <objects>
-                <viewController storyboardIdentifier="InvoiceViewController" id="FUl-Hs-fZy" customClass="InvoiceViewController" customModule="Mind" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InvoiceViewController" id="FUl-Hs-fZy" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R18-GQ-ZBw"/>
                         <viewControllerLayoutGuide type="bottom" id="tdW-W2-han"/>
