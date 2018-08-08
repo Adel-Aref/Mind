@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B5C76370E07AE9CA65F8192 /* Pods_MindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC0EF8D484D076CFDA3B752 /* Pods_MindUITests.framework */; };
+		5400DBA62119E058004937FF /* BondsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5400DBA52119E058004937FF /* BondsViewController.swift */; };
 		5407A3BA211736E50064B9A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5407A3B8211736E40064B9A3 /* HomeViewController.swift */; };
 		5407A3BB211736E50064B9A3 /* InvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5407A3B9211736E50064B9A3 /* InvoiceViewController.swift */; };
 		5407A3BD211736F90064B9A3 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5407A3BC211736F90064B9A3 /* HomeCollectionViewCell.swift */; };
@@ -43,6 +44,7 @@
 		26082510E642D7FDE96290B4 /* Pods-MindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindTests/Pods-MindTests.release.xcconfig"; sourceTree = "<group>"; };
 		3012EC3778EE894A1C6997FA /* Pods-MindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindTests/Pods-MindTests.debug.xcconfig"; sourceTree = "<group>"; };
 		341B30DA306652A7B24DBC9A /* Pods-Mind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mind/Pods-Mind.debug.xcconfig"; sourceTree = "<group>"; };
+		5400DBA52119E058004937FF /* BondsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondsViewController.swift; sourceTree = "<group>"; };
 		5407A3B8211736E40064B9A3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5407A3B9211736E50064B9A3 /* InvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceViewController.swift; sourceTree = "<group>"; };
 		5407A3BC211736F90064B9A3 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				5407A3B8211736E40064B9A3 /* HomeViewController.swift */,
 				5407A3B9211736E50064B9A3 /* InvoiceViewController.swift */,
+				5400DBA52119E058004937FF /* BondsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F56E161F2117345000C5C443 /* AppDelegate.swift in Sources */,
+				5400DBA62119E058004937FF /* BondsViewController.swift in Sources */,
 				5407A3BA211736E50064B9A3 /* HomeViewController.swift in Sources */,
 				5407A3BF2117370C0064B9A3 /* CollectionViewCellModel.swift in Sources */,
 				5407A3BB211736E50064B9A3 /* InvoiceViewController.swift in Sources */,

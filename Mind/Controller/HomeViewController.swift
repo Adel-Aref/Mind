@@ -140,6 +140,8 @@ extension HomeViewController{
             performSegue(withIdentifier: "showInvoiceViewController", sender: nil)
         case 1:
             performSegue(withIdentifier: "showReportViewController", sender: nil)
+        case 4:
+            performSegue(withIdentifier: "showBondsViewController", sender: nil)
         
         default:
             break
